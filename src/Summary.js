@@ -10,6 +10,7 @@ class Summary extends Component {
       
             return (
               <SummaryOption
+                key={featureHash}
                 featureHash={featureHash}
                 feature={feature}
                 selectedOption={selectedOption}
